@@ -665,3 +665,42 @@ input:checked + .slider:before {
 .red{
 	opacity: 0.5;
 	}
+
+
+
+    .bton{
+        width: 114px;
+        height: 45px;
+        background: #615EFF;
+        color: #200E32;
+        border-radius:9px;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    
+    .drag-drop1 {
+        background: transparent;
+        border: 1px solid rgba(196, 196, 196, 0.53);
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+    }
+    
+    .btoon{
+        border: 2px solid black;
+        background-color: transparent;
+        color: black;
+        padding: 14px 28px;
+        cursor: pointer;
+    }
+        
+    .info {
+        border-color: #615EFF;
+        color:#615EFF;
+        border-radius: 9px;
+        font-size:11px;
+        display:inline-block;
+        height:40px;
+        width:100%;
+    }
+    
