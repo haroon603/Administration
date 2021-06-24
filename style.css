@@ -3,6 +3,10 @@
     font-style: normal;
 }
 
+.general-btn{
+    height: 61px;
+}
+
 .nav-pills .nav-link.active {
     background-color: #ffffff !important;
 }
@@ -12,15 +16,12 @@
     width: 21.2%; 
     padding-left: 25px;
 }
-
 #tabsJustified li {
     margin-top: 3px;
 }
-
 #tabsJustified li:first-child {
     margin-top: 15px;
 }
-
 #tabsJustified li .cat.active {
     background: #615EFF !important;
     min-width:max-content !important;
@@ -28,7 +29,6 @@
     padding-right: 50px !important;
     border-radius: 10px !important;
 }
-
 #tabsJustified1 li .sub-cat.active, #tabsJustified2 li .sub-cat-sub.active, #tabsJustified3 li .sub-cat-sub.active {
     color: #615EFF !important;
     background: transparent !important;
@@ -80,15 +80,18 @@
 }
 
 .sbar {
-    height: 42px;
     background: #F0F1F3 !important;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
     border-radius: 10px;
 }
 
+.sbar button {
+    background: #F0F1F3 !important;
+}
+
 .sbar-input {
     text-align: left !important;
-    height: 42px;
+    height: 100% !important;
     background: #F0F1F3 !important;
     border: none;
     outline: none;
@@ -141,6 +144,10 @@
 .fs-14 {
     font-size: 14px;
     line-height: 16px;
+}
+.fs-15 {
+    font-size: 15px;
+    line-height: 17px;
 }
 
 .fs-17 {
@@ -361,22 +368,19 @@
     font-size: 12px !important;
  }
  
-
 /* The switch - the box around the slider */
 .switch {
     position: relative;
     display: inline-block;
-    width: 35px;
-    height: 20px;
+    width: 44px;
+    height: 25px;
 }
-
 /* Hide default HTML checkbox */
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
-
 /* The slider */
 .slider {
     position: absolute;
@@ -389,38 +393,32 @@
     -webkit-transition: .4s;
     transition: .4s;
 }
-
 .slider:before {
     position: absolute;
     content: "";
-    height: 16px;
-    width: 16px;
+    height: 21px;
+    width: 21px;
     left: 2px;
     bottom: 2px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
 }
-
 input:checked + .slider {
     background-color: #615EFF;
 }
-
 input:focus + .slider {
     box-shadow: 0 0 1px #615EFF;
 }
-
 input:checked + .slider:before {
-    -webkit-transform: translateX(15px);
-    -ms-transform: translateX(15px);
-    transform: translateX(15px);
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
 }
-
 /* Rounded sliders */
 .slider.round {
     border-radius: 34px;
 }
-
 .slider.round:before {
     border-radius: 50%;
 }
@@ -560,7 +558,12 @@ input:checked + .slider:before {
         font-size: 12px;
         line-height: 14px;
     }
-    
+        
+    .fs-15 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
     .fs-17 {
         font-size: 15px;
         line-height: 17px;
@@ -574,7 +577,19 @@ input:checked + .slider:before {
         line-height: 15px;
         padding: 10px !important;
     }
-    
+
+    .w-50{
+      width: 50%;
+      height: 50% !important;
+    }
+    .set{
+       margin-right: 0 !important;
+       padding-left: 20px !important; 
+    }
+    .set3{
+        margin-right: 0 !important;
+     }
+   
     #tabsJustified li {
         margin-top: 0px;
     }
@@ -582,7 +597,9 @@ input:checked + .slider:before {
     .side-style {
         padding-left: 0px !important;
     }
-
+    #tabsJustified li .cat.active {
+        padding-right: 15px !important;
+    }
     #tabsJustified li {
         margin-left: 0px;
         margin-top: 05px;
@@ -605,11 +622,22 @@ input:checked + .slider:before {
     }
 
     .add-client-btn {
-        width: 155px; 
+        width: 135px; 
         height: 40px; 
         margin: 10px;
-        font-size: 10px;
+        font-size: 08px;
         line-height: 12px;
+    }
+
+    .add-client-btn1 {
+        width: 135px; 
+        height: 40px; 
+        margin: 10px;
+        font-size: 08px;
+        line-height: 12px;
+    }
+    .set2{
+        margin-left: 0 !important;
     }
 
     .sbar {
@@ -645,9 +673,14 @@ input:checked + .slider:before {
         line-height: 13px;
     }
     
+    .fs-15 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
     .fs-17 {
-        font-size: 13px;
-        line-height: 15px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .tbl thead tr td {
@@ -661,7 +694,12 @@ input:checked + .slider:before {
 
 }
 
-
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 7rem auto;
+    }
+}
 .red{
 	opacity: 0.5;
 	}
