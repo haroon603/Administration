@@ -102,6 +102,12 @@ a:link {
     border-radius: 10px;
 }
 
+.col-div{
+    width: 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
 .sbar-input::placeholder {
     color: #B7B2BD;
 }
@@ -906,7 +912,11 @@ input:checked + .slider:before {
         padding: 15px;
     }
     
-
+    .col-div{
+        width: 33%;
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
     
 
     .modal-body{
