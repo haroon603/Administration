@@ -126,6 +126,24 @@ a:link {
     border-radius: 10px;
     border: 2px solid #615EFF;
 }
+.add-client-btn2 {
+    width: 224px; 
+    height: 49px; 
+    background: #615EFF !important; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+}
+.add-client-btn3 {
+    width: 224px; 
+    height: 49px; 
+    background: #615EFF !important; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+}
 
 .box-height-240 {
     height: 240px;
@@ -144,37 +162,41 @@ a:link {
 }
 
 .fs-12 {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 12px !important;
+    line-height: 14px !important;
 }
 
 .fs-14 {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 14px !important;
+    line-height: 16px !important;
 }
 .fs-15 {
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 15px !important;
+    line-height: 17px !important;
 }
 
 .fs-17 {
-    font-size: 17px;
-    line-height: 19px;
+    font-size: 17px !important;
+    line-height: 19px !important;
+}
+.fs-17-1 {
+    font-size: 17px !important;
+    line-height: 16px !important;
 }
 .fs-18 {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 18px !important;
+    line-height: 20px !important;
 }
 label {
     margin-bottom: .7rem !important;
     margin-top: .6rem !important;
 }
 .fw-400 {
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 
 .fw-500 {
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 .br-10 {
@@ -503,6 +525,11 @@ input:checked + .slider:before {
         line-height: 18px;
     }
 
+    .fs-17-1 {
+        font-size: 15px !important;
+        line-height: 16px !important;
+    }
+
     .sub-cat {
         font-size: 13px; 
         line-height: 16px;
@@ -589,6 +616,13 @@ input:checked + .slider:before {
         font-size: 12px;
         line-height: 14px;
     }
+    .add-client-btn3 {
+        width: 190px; 
+        height: 40px; 
+        margin: 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
 
     .client-text {
         font-size: 7.5px;
@@ -635,6 +669,10 @@ input:checked + .slider:before {
     .fs-17 {
         font-size: 11px;
         line-height: 17px;
+    }
+    .fs-17-1 {
+        font-size: 10px !important;
+        line-height: 16px !important;
     }
     .fs-18 {
         font-size: 16px !important;
@@ -699,6 +737,17 @@ input:checked + .slider:before {
         padding-left: 0 !important;
     }
 
+    .set5{
+        margin-left: 5px !important;
+    }
+
+    .set6{
+        margin-top: 05px !important;
+    }
+    .set7{
+        margin-left: 10px !important;
+    }
+
     .img-16{
         height: 16px;
     }
@@ -711,6 +760,13 @@ input:checked + .slider:before {
 
     .btn-set{
         width: 50px;
+    }
+
+    .search-set{
+        height: 35px !important;
+    }
+    .inchange{
+        width: 25% !important;
     }
    
     #tabsJustified li {
@@ -748,7 +804,7 @@ input:checked + .slider:before {
 
     .add-client-btn {
         width: 110px; 
-        height: 40px; 
+        height: 35px; 
         margin: 10px;
         font-size: 08px;
         line-height: 12px;
@@ -756,12 +812,26 @@ input:checked + .slider:before {
 
     .add-client-btn1 {
         width: 135px; 
-        height: 40px; 
+        height: 35px; 
         margin: 10px;
         font-size: 08px;
         line-height: 12px;
     }
     
+    .add-client-btn2 {
+        width: 125px; 
+        height: 35px; 
+        margin: 10px;
+        font-size: 08px;
+        line-height: 12px;
+    }
+    .add-client-btn3 {
+        width: 100px; 
+        height: 35px; 
+        margin: 10px;
+        font-size: 08px;
+        line-height: 12px;
+    }
 
     .sbar {
         height: 32px;
@@ -801,23 +871,27 @@ input:checked + .slider:before {
     }
 
     .fs-12 {
-        font-size: 09px;
-        line-height: 11px;
+        font-size: 09px !important;
+        line-height: 11px !important;
     }    
 
     .fs-14 {
-        font-size: 11px;
-        line-height: 13px;
+        font-size: 11px !important;
+        line-height: 13px !important;
     }
     
     .fs-15 {
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 12px !important;
+        line-height: 14px !important;
     }
 
     .fs-17 {
-        font-size: 09px;
-        line-height: 16px;
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+    .fs-17-1 {
+        font-size: 09px !important;
+        line-height: 16px !important;
     }
     .fs-18 {
         font-size: 14px !important;
@@ -831,9 +905,7 @@ input:checked + .slider:before {
     .tbl tbody tr td {
         padding: 15px;
     }
-    .inchange{
-        width: 25% !important;
-    }
+    
 
     
 
