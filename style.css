@@ -761,6 +761,10 @@ input:checked + .slider:before {
         margin-left: 10px !important;
     }
 
+    .set8{
+        padding-left: 10px !important;
+    }
+
     .img-16{
         height: 16px;
     }
@@ -946,6 +950,8 @@ input:checked + .slider:before {
         margin-bottom: .5rem !important;
         margin-top: 0 !important;
     }
+
+    
 
 }
 
