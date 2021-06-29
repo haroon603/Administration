@@ -592,6 +592,13 @@ input:checked + .slider:before {
     #tabsJustified li {
         margin-top: 2px;
     }
+    .container-fluid .drag-drop1{
+        height: 130px !important;
+    }
+
+    .drag-drop1.text-center {
+        height: 80px !important;
+    }
     
     .cat {
         font-size: 13px; 
