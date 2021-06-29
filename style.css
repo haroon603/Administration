@@ -732,6 +732,11 @@ input:checked + .slider:before {
       width: 50%;
       height: 50% !important;
     }
+
+    .width-set{
+        width: 50% !important;
+        height: 50% !important;
+    }
     .set{
        margin-right: 0 !important;
        padding-left: 20px !important; 
