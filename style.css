@@ -3,6 +3,10 @@
     font-style: normal;
 }
 
+.pad-l-set{
+    padding-left: 15px !important;
+}
+
 .general-btn{
     height: 61px;
 }
@@ -13,6 +17,14 @@ a:link {
 
 .nav-pills .nav-link.active {
     background-color: #ffffff !important;
+}
+
+.date-range {
+    width: 229px; 
+    height: 54px; 
+    border-radius: 10px; 
+    color: #200E32;
+    background: white;
 }
 
 .side-style {
@@ -728,6 +740,10 @@ input:checked + .slider:before {
         padding: 10px !important;
     }
 
+    .pad-l-set{
+        padding-left: 06px !important;
+    }
+
     .w-50{
       width: 50%;
       height: 50% !important;
@@ -937,6 +953,11 @@ input:checked + .slider:before {
 
     .modal-body{
         height: 300px;
+    }
+
+    .modal-content {
+ 
+        width: 450px !important;
     }
 
     .checkbox-primary {
