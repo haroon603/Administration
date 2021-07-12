@@ -976,6 +976,11 @@ input:checked + .slider:before {
         margin-bottom: .5rem !important;
         margin-top: 0 !important;
     }
+    .modal-dialog{
+        width: 390px !important;
+    }
+
+
 
     
 
