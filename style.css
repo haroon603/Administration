@@ -1003,7 +1003,7 @@ input:checked + .slider:before {
         border-radius:9px;
         color: #FFFFFF;
         font-size: 14px;
-        text-align: left;
+        text-align: center;
     }
     .drag-drop1 {
         background: transparent;
