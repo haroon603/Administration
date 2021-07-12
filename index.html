@@ -219,6 +219,14 @@
                                 &nbsp;&nbsp;Our clients
                             </a>
                         </li>
+
+                        <li class="nav-item">
+                            <a href="" id="edit-profile" data-toggle="tab" class="nav-link small active cat text-font-normal">
+                                <img src="Profile.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
+                                <img src="Profile.png" style="width: 18px; height: 18px;" class="black-image" />
+                                &nbsp;&nbsp;Edit Profile
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -5342,6 +5350,7 @@
         <script>
             $(document).ready(function(){
                 $("#permit-sublinks").hide();
+                $("#edit-profile").hide();
                 $("#permit").hide();
                 $("#profile1").hide();
                 $("#profile").hide();
@@ -5373,6 +5382,9 @@
                     $("#parameter-of-site").hide();
                     $("#profile").hide();
                     $("#besixlink").hide();
+                    $("#client2-link").show();
+                    $("#clients-link").show();
+                    $("#edit-profile").hide();
                     $("#permit").show(200);
                     $("#permit-sublinks").show(200);
                     
@@ -5543,6 +5555,9 @@
                     $("#differentsite-sublink").hide();
                     $("#parameter-of-site").hide();
                     $("#profile").hide();
+                    $("#client2-link").show();
+                    $("#clients-link").show();
+                    $("#edit-profile").hide();
                     $("#clients").show(200);
                 });
 				$("#client2-link").click(function(){
@@ -5557,6 +5572,9 @@
                     $("#excavation1").hide();
                     $("#parameter-of-site").hide();
                     $("#profile").hide();
+                    $("#client2-link").show();
+                    $("#clients-link").show();
+                    $("#edit-profile").hide();
                     $("#differentsite-sublink").show(200);
 					$("#client2").show(200);
                 });
@@ -5612,6 +5630,9 @@
                     $("#signature_setting").hide();
                     $("#roles").hide();
                     $("#rapport").hide();
+                    $("#client2-link").hide();
+                    $("#clients-link").hide();
+                    $("#edit-profile").show();
                     $("#profile").show(200);
                 });
             });
