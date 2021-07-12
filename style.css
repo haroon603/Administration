@@ -740,6 +740,10 @@ input:checked + .slider:before {
         padding: 10px !important;
     }
 
+    .date-range{
+        width: 180px;
+    }
+
     .pad-l-set{
         padding-left: 06px !important;
     }
@@ -877,7 +881,7 @@ input:checked + .slider:before {
     }
     
     .sbar-input {
-        height: 32px;
+        height: 43px !important;
     }
     
     .client-text {
@@ -978,6 +982,12 @@ input:checked + .slider:before {
     }
     .modal-dialog{
         width: 390px !important;
+    }
+
+
+    .img-90{
+        height: 90px !important;
+        width: 90px !important;
     }
 
 
