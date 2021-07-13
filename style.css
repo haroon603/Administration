@@ -72,7 +72,9 @@ a:link {
 
 .cat {
     font-size: 17px; 
-    line-height: 20px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
     padding: 10px !important;
     padding-left: 18px !important;
 }
@@ -92,11 +94,6 @@ a:link {
     line-height: 15px;
     padding: 5px !important;
     padding-left: 24px !important;
-}
-
-.lum-logo {
-    width: 146px; 
-    height: 57px; 
 }
 
 .sbar {
@@ -791,12 +788,6 @@ input:checked + .slider:before {
 
     .img-16{
         height: 16px;
-    }
-
-    .img-set{
-        height: 50px;
-        width: 90px;
-        margin-left: .5rem!important;
     }
 
     .btn-set{
