@@ -32,7 +32,7 @@ a:link {
     width: 21.007%;
 }
 
-.side-style ul {
+.side-style ul#tabsJustified {
     width: 100%;
     padding-left: 10.9%;
     padding-right: 11%;
@@ -78,7 +78,7 @@ a:link {
 }
 
 .sub-cat {
-    margin-left: 5% !important;
+    margin-left: 8% !important;
     font-size: 15px; 
     line-height: 18px;
     padding: 10px;
@@ -555,8 +555,7 @@ input:checked + .slider:before {
     .sub-cat {
         font-size: 13px; 
         line-height: 16px;
-        padding: 10px !important;
-        padding-left: 20px !important;
+        margin-left: 5% !important;
     }
         
     .sub-cat-sub {
