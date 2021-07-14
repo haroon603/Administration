@@ -790,6 +790,11 @@ input:checked + .slider:before {
         height: 16px;
     }
 
+    .img-14{
+        width: 14px !important;
+        height: 14px !important;
+    }
+
     .btn-set{
         width: 50px;
     }
@@ -883,6 +888,10 @@ input:checked + .slider:before {
 
     .p-3 {
         padding: 10px !important;
+    }
+
+    .p-t{
+        padding-top: 1rem !important;
     }
 
     .pd-inp {
